@@ -21,30 +21,32 @@
 </p>
 <p align="center"><b>让你更优雅的使用 OpenClash </b></p>
 
-## 关于本项目 
+# 关于本项目 
 本项目可能是目前全网最强的 [OpenClash](https://github.com/vernesong/OpenClash) 保姆级图文设置方案和订阅转换模板！  
 终结所有错误设置！让稀奇古怪的套娃设置方法见鬼去吧！  
 
 OpenClash 无疑是 OpenWrt 中最强大的科学上网软件，它可以实现最完美的透明代理效果。
 
-本项以中国大陆境内的网络环境为参考，示例如何将 OpenClash 设置为无感、快速、安全和省心三者兼顾的完美状态，从而达到极致优雅的科学上网体验。
+本项目以中华人民共和国境内的网络环境为参考，示例如何将 OpenClash 插件设置为无感、快速、安全和省心兼顾的完美状态，从而达到极致优雅的透明代理科学上网体验。
 彻底告别手搓配置和多个插件套娃的繁琐设置方法，保证零基础小白也能轻松看懂。  
-按照本项目的 [Wiki](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki) 中的设置方案，搭配本项目的[订阅转换模板](https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/cfg/Custom_Clash.ini)对 OpenClash 进行设置，仅依靠 OpenClash 自身，无需套娃其他工具，即可实现快速、无污染、无泄漏的 DNS 解析以及完善多样的分流功能，同时配合 Dnsmasq 可实现无第三方插件的广告拦截，并且完美兼容 IPv6。  
+按照本项目的 [Wiki](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki) 中的设置方案，搭配本项目的[订阅转换模板](https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main/cfg/Custom_Clash.ini)对 OpenClash 进行设置，无需套娃其他工具，仅依靠 OpenClash 自身即可实现快速、无污染、无泄漏的 DNS 解析以及完善多样的分流功能，同时配合 Dnsmasq 可实现无需第三方插件的广告拦截，并且完美兼容 IPv6。  
 
 欢迎 star ！
 
-本项目编写于2024年4月，为非盈利项目。  
-某些 Youtube 作者转载本项目内容请注明本项目的仓库地址，感谢合作！
+Telegram 通知频道：https://t.me/custom_openclash_rules  
+Telegram 讨论群组：https://t.me/custom_openclash_rules_group  
 
-## 特别声明  
+本项目编写于2024年4月，为非盈利项目。转载本项目内容请注明本项目的仓库地址，感谢合作！  
+
+# 特别声明  
 1. 本项目的主要目的是探索与学习 OpenWrt 系统插件 OpenClash，因此无法确保所有内容的合法性、完整性、准确性或有效性。
 2. 项目中的内容仅用于学习与研究目的，不得将其用于任何可能违反国家、地区或组织法律法规的用途。
 3. 任何直接或间接使用本项目的个人或组织，应在24小时内完成学习与研究，随后删除所有相关内容。
 4. 使用本项目内容进行的任何更改，均为其他个人或组织的行为，与本项目及其维护者无关，因其修改导致的任何后果由相关责任方承担。
-5. 本项目允许对项目内容进行任何形式的转载和二次创作，包括但不限于文章、视频等形式，转载时务必注明本项目的地址，但不得将相关内容转载于中国大陆境内的任何平台之上。
+5. 本项目允许对项目内容进行任何形式的转载和二次创作，包括但不限于文章、视频等形式，转载时务必注明本项目的地址，但不得将相关内容转载于中华人民共和国境内的任何互联网平台之上。
 6. 本项目保留随时补充或修改免责声明的权利，凡使用本项目内容的个人或组织，均视为已接受此声明。  
 
-## 本项目设置方案及订阅转换模板介绍
+# 本项目设置方案及订阅转换模板介绍
 本项目的订阅转换模板是参考 [ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/master) 等规则的订阅模板进行了魔改和完善而来。  
 
 **按照本项目 [Wiki](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki) 中的设置方案，配合本项目的订阅转换模板对 OpenClash 进行配置，即可实现以下特性，更优雅的使用你的 OpenClash：** 
@@ -52,21 +54,22 @@ OpenClash 无疑是 OpenWrt 中最强大的科学上网软件，它可以实现�
 * **杜绝 DNS 污染和泄露，无需搭配其他插件。**  海外域名采用使用远端节点服务器的 DNS 进行解析并访问，确保隐私的同时取得最佳解析结果。
 * **彻底告别套娃设置。**  免去各种 DNS 插件带来的搭配烦恼，全部特性依靠 OpenClash 一个插件实现，且保证 OpenClash 即使挂了也不影响访问国内网站。  
 * **傻瓜化的设置操作。**  鼠标点击+复制粘贴几分钟即可完成完美设置，无需手搓配置。  
-* **丰富的分流策略组。**  包含流媒体服务、AI 工具等在内的大量常见的分流策略组。 
+* **丰富的分流策略组。**  包含流媒体服务、AI 工具、电商、游戏平台等在内的大量常见的分流策略组。 
 * **支持节点按地区分类测速优选。**  自动优选最快节点，不用自己折腾切换。  
 * **Steam 访问优化。**  单独列出 Steam 规则并强制 Steam 下载 CDN 走直连，解决 Steam 下载 CDN 定位到海外的问题，确保 Steam 下载流量不走代理。  
-* **一次设置，长期无人值守。**  每日定时自动更新上游规则和 GEO 数据库、大陆白名单等具有时效要求的数据，无需自己动手。    
+* **自动更新，长期无人值守。**  设置完成后即可长期无人值守，每日定时自动更新上游规则 GEO 数据库和大陆白名单等具有时效性要求的数据，无需自己动手。    
 * **海外下载流量优化。**  尽力避免海外下载流量走节点，节约节点流量。（尚不完善）。  
 * **支持广告屏蔽功能和 hosts 加速。**  依靠 OpenClash 配合系统自带 Dnsmasq 实现广告过滤和 hosts 加速功能，并实现每日自动更新，支持添加多个规则。（可选）
 * **增加更多的节点区域分组。**  增加包括英国、加拿大等国家的节点分组。
 * **增加若干冷门域名规则。**  增加了一些小众网站的直连规则，可以自己 PR 提交域名参与完善规则。  
 
-## 使用方法  
+# 使用方法  
 准备好你的订阅链接，然后按照本项目 Wiki 中的对应部分对 OpenClash 进行设置：[OpenClash-设置方案](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki/OpenClash-设置方案)  
 方案中已包括了本项目订阅转换模板的使用方法。  
 以上方案非常详尽，只需按部就班设置即可。全部设置内容均基于 OpenClash 的 luci 设置页面，有手就行！  
 设置方案文字较多，务必逐字逐句认真阅读，不要忽略以防漏掉关键部分导致故障。且方案内含多处设置的讲解便于理解相关设置原理，有助于小白学习。  
 
+# 一些说明  
 ## 关于个性化需求  
 由于本项目为自用目的，且个人时间有限，只能随缘更新，因此不提供个性化修改服务。  
 具体个性化实现方式，请参考 Wiki 中的对应章节：[个性化需求](https://github.com/Aethersailor/Custom_OpenClash_Rules/wiki/%E5%85%B6%E4%BB%96%E8%AF%B4%E6%98%8E#%E5%85%B3%E4%BA%8E%E4%B8%AA%E6%80%A7%E5%8C%96%E9%9C%80%E6%B1%82)
@@ -101,22 +104,26 @@ OpenWrt 的 IPv6 设置方案见本项目的 Wiki：[OpenWrt-IPv6-设置方案](
 测试状态，尚不完善  
 
 
-## 机场推荐 
-### SSRDOG  
+# 机场推荐 
+## SSRDOG  
+`
+“SSRDOG（SG）是一個追求可靠、安全、高效、且高性價比的互聯網接入方案國際研發團隊，為您提供最安全的網絡加速服務！”
+`  
 
-本人常年使用的一家机场，价格和流量都比较适中，搭配本项目的设置方案以及订阅模板使用，体验保证拉满。
+本人长期使用的一家机场，价格和流量都比较适中，搭配本项目的设置方案以及订阅模板使用，体验保证拉满。
 
+### 机场特性：  
 - 全 IEPL 线路不过墙，特殊时期服务稳定
 - 低延迟大带宽，高峰时期油管 8K 视频秒开无压力
 - 节点覆盖地区全面，包含港台美日新欧等主流地区
-- 解锁 Netflix、Disney+、YouTube、TikTok、Spotify 等主流流媒体服务
-- 解锁 ChatGPT 
+- 全部节点解锁 Netflix、Disney+、YouTube、TikTok、Spotify 等主流流媒体服务
+- 全部节点解锁 ChatGPT 
 - 支持 UDP 转发和游戏加速，部分节点支持 FullCone 全锥形 NAT
 - 支持 IPv6 出站
 - 支持试用
 - 工单支持简体中文沟通且客服反应迅速
 
-注册链接：[SSRDOG 注册](https://dog1.ssrdog111.com/#/register?code=FnSb4oWM)  (链接包含 aff 信息)
+注册链接：[SSRDOG 注册](https://dog1.ssrdog111.com/#/register?code=FnSb4oWM)  (链接包含 aff 信息，感谢支持！)
 
 本项目订阅模板的节点地区分类即参考了该机场的节点地区进行分类。  
 
@@ -127,16 +134,16 @@ Traffic、GB、Expire、11、12、13、14、15
 Traffic、GB、Expire  
 不屏蔽不影响使用，只是会让节点列表看着更整洁一些  
 
-## 控制面板效果截图  
+# 控制面板效果截图  
 历史截图，可能和当前版本不一致，仅供示意  
 ![](https://github.com/Aethersailor/Custom_OpenClash_Rules/blob/main/doc/openclash/pics/db2.png)  
 
-## 贡献者  
+# 贡献者  
 <a href="https://github.com/Aethersailor/Custom_OpenClash_Rules/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Aethersailor/Custom_OpenClash_Rules" />
 </a>  
 
-## 感谢  
+# 感谢  
 以下排名不分先后  
 - [vernesong/OpenClash](https://github.com/vernesong/OpenClash)
 - [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo)
@@ -144,8 +151,12 @@ Traffic、GB、Expire
 - [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)
 - [TraderWukong/demo](https://github.com/TraderWukong/demo)
 - [dogfight360/UsbEAm](https://github.com/dogfight360/UsbEAm)  
+- [ddgksf2013/ddgksf2013](https://github.com/ddgksf2013/ddgksf2013)  
+- [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD)  
+- [TG-Twilight/AWAvenue-Ads-Rule](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)  
+- [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520)  
 
-## 许可		
+# 许可		
 [![](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
 * CC-BY-SA-4.0  
 **谴责所有不遵循 LICENSE 的搬运行为。** 
