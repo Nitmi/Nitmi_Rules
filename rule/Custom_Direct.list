@@ -101,3 +101,13 @@ DOMAIN-SUFFIX,fanmingming.com
 
 # 语雀文档
 DOMAIN-SUFFIX,yuque.com
+
+# AI 相关
+DOMAIN-SUFFIX,apiyi.com
+DOMAIN-SUFFIX,wlai.vip
+
+# 文件传输相关
+DOMAIN-SUFFIX,pairdrop.net
+
+# 中国知网
+DOMAIN-SUFFIX,cnki.net

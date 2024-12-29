@@ -19,3 +19,12 @@ IP-CIDR,1.0.0.1/32,no-resolve
 DOMAIN-SUFFIX,platformio.org
 DOMAIN-SUFFIX,arduino.cc
 
+# AI 相关
+DOMAIN-SUFFIX,burn.hair
+DOMAIN-SUFFIX,yunwu.ai
+
+# 123778.xyz 从美国打洞的服务相关
+DOMAIN,ai.123778.xyz
+DOMAIN,memos.123778.xyz
+DOMAIN,bitwarden.123778.xyz
+
