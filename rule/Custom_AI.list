@@ -1,0 +1,7 @@
+# NAME: Custom_AI
+# AUTHOR: Nitmi
+# 补漏需走美国节点的 AI 列表，来自个人收集
+
+# google notebookLM
+DOMAIN,notebooklm.google
+DOMAIN,notebooklm.google.com
