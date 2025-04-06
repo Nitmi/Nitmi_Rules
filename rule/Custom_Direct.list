@@ -90,7 +90,11 @@ DOMAIN-SUFFIX,jiepei.com
 DOMAIN-SUFFIX,waveshare.net
 DOMAIN-SUFFIX,lingshunlab.com
 DOMAIN-SUFFIX,smtez.com
+DOMAIN-SUFFIX,elecfans.com
 
+# 开发相关
+DOMAIN-SUFFIX,byhy.net
+DOMAIN-SUFFIX,memfiredb.com
 
 # 捷顺科技
 DOMAIN-SUFFIX,jslife.net
@@ -129,3 +133,5 @@ DOMAIN-SUFFIX,xitongzhijia.net
 
 # 免费 DeepSeek API 商家
 DOMAIN-SUFFIX,sophnet.com
+
+DOMAIN-SUFFIX,cwxhmk.top
