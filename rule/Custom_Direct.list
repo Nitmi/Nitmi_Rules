@@ -112,6 +112,8 @@ DOMAIN-SUFFIX,wlai.vip
 
 # 文件传输相关
 DOMAIN-SUFFIX,pairdrop.net
+DOMAIN-SUFFIX,airdrop.net
+DOMAIN-SUFFIX,fastsend.ing
 
 # 中国知网
 DOMAIN-SUFFIX,cnki.net
@@ -135,3 +137,5 @@ DOMAIN-SUFFIX,xitongzhijia.net
 DOMAIN-SUFFIX,sophnet.com
 
 DOMAIN-SUFFIX,cwxhmk.top
+
+DOMAIN-SUFFIX,ivysun.net
