@@ -91,6 +91,8 @@ DOMAIN-SUFFIX,waveshare.net
 DOMAIN-SUFFIX,lingshunlab.com
 DOMAIN-SUFFIX,smtez.com
 DOMAIN-SUFFIX,elecfans.com
+DOMAIN-SUFFIX,ebyte.com
+DOMAIN-SUFFIX,amobbs.com
 
 # 开发相关
 DOMAIN-SUFFIX,byhy.net
@@ -100,8 +102,11 @@ DOMAIN-SUFFIX,memfiredb.com
 DOMAIN-SUFFIX,jslife.net
 # 南海控股有限公司
 DOMAIN-SUFFIX,nanhaicorp.com
-# 范明明's Blog 蒙ICP备18004194号
+
+# 博客 Blogs
 DOMAIN-SUFFIX,fanmingming.com
+DOMAIN-SUFFIX,xujiahua.com
+DOMAIN-SUFFIX,jinpeng.boo
 
 # 语雀文档
 DOMAIN-SUFFIX,yuque.com
@@ -139,3 +144,12 @@ DOMAIN-SUFFIX,sophnet.com
 DOMAIN-SUFFIX,cwxhmk.top
 
 DOMAIN-SUFFIX,ivysun.net
+
+# 飞致云（1panel开发团队）
+DOMAIN-SUFFIX,fit2cloud.com
+
+# 可道云官网
+DOMAIN-SUFFIX,kodcloud.com
+
+# 时光图书馆
+DOMAIN-SUFFIX,atimebook.com
