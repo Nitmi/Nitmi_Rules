@@ -5,6 +5,8 @@
 # 部分域名可能和中国大陆域名列表存在重叠
 # 规则内容较少，不会影响性能，请放心使用
 
+DOMAIN-SUFFIX,123778.xyz
+
 # ImmortalWrt 在线更新服务
 #DOMAIN-SUFFIX,sysupgrade.kyarucloud.moe
 # ImmortalWrt 软件仓库
