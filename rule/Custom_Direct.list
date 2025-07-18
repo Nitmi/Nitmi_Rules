@@ -95,6 +95,7 @@ DOMAIN-SUFFIX,smtez.com
 DOMAIN-SUFFIX,elecfans.com
 DOMAIN-SUFFIX,ebyte.com
 DOMAIN-SUFFIX,amobbs.com
+DOMAIN-SUFFIX,dianyuan.com
 
 # 开发相关
 DOMAIN-SUFFIX,byhy.net
@@ -163,3 +164,8 @@ DOMAIN-SUFFIX,leiphone.com
 
 # 企业查询平台
 DOMAIN-SUFFIX,riskbird.com
+
+DOMAIN-SUFFIX,juziseo.com
+DOMAIN-SUFFIX,ruoyi.vip
+DOMAIN-SUFFIX,gitee.com
+DOMAIN-SUFFIX,xianbao.fun
