@@ -7,6 +7,9 @@
 
 DOMAIN-SUFFIX,123778.xyz
 
+DOMAIN-SUFFIX,xianwill.cn
+DOMAIN-SUFFIX,xano.cc
+
 # ImmortalWrt 在线更新服务
 #DOMAIN-SUFFIX,sysupgrade.kyarucloud.moe
 # ImmortalWrt 软件仓库
@@ -125,9 +128,6 @@ DOMAIN-SUFFIX,fastsend.ing
 
 # 中国知网
 DOMAIN-SUFFIX,cnki.net
-
-DOMAIN-SUFFIX,xianwill.cn
-DOMAIN-SUFFIX,xano.cc
 
 # 第一范文网
 DOMAIN-SUFFIX,diyifanwen.com
