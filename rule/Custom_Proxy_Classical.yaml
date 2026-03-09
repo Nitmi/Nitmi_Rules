@@ -1,9 +1,10 @@
 # Generated from rule/Custom_Proxy.list
 # REPO: https://github.com/Nitmi/Nitmi_Rules
 # SOURCE: https://github.com/Nitmi/Nitmi_Rules/blob/main/rule/Custom_Proxy.list
-# TOTAL: 16
+# TOTAL: 18
 
 payload:
+  - DOMAIN-SUFFIX,123778.xyz
   - DOMAIN-SUFFIX,7pzzv.us
   - DOMAIN-SUFFIX,arduino.cc
   - DOMAIN-SUFFIX,clientservices.googleapis.com
@@ -20,4 +21,4 @@ payload:
   - DOMAIN-SUFFIX,services.googleapis.cn
   - DOMAIN-SUFFIX,stun.playstation.net
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-
+  - IP-CIDR,103.244.88.3/8,no-resolve
