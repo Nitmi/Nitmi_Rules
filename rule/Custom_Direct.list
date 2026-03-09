@@ -1,8 +1,23 @@
 # NAME: Custom_Direct
-# AUTHOR: Aethersailor
-# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
+# AUTHOR: Nitmi
 # 强制直连域名列表，来自个人收集
 # 此规则文件中的域名会定期 PR 至 Geosite 数据库，并删除已被 Geosite 收录的域名，因此请在支持 Geosite 的软件（如 OpenClash）中使用。
+
+
+DOMAIN-SUFFIX,xano.cc
+DOMAIN-SUFFIX,xianwill.cn
+
+# 开发相关
+DOMAIN-SUFFIX,byhy.net
+
+# 博客 Blogs
+DOMAIN-SUFFIX,xujiahua.com
+
+# 时光图书馆
+DOMAIN-SUFFIX,atimebook.com
+
+DOMAIN-SUFFIX,gsctek.com
+
 
 
 # ImmortalWrt 相关

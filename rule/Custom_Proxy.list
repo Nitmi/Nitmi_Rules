@@ -1,7 +1,12 @@
 # NAME: Custom_Proxy
-# AUTHOR: Aethersailor
-# REPO: https://github.com/Aethersailor/Custom_OpenClash_Rules
+# AUTHOR: Nitmi
 # 强制代理列表，来自个人收集
+
+
+DOMAIN-SUFFIX,123778.xyz
+IP-CIDR,103.244.88.3/8
+
+
 
 # OpenClash 首页 IP 地址探测
 DOMAIN-SUFFIX,ip.sb
