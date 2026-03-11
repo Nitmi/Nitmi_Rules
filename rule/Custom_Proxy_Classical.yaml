@@ -21,4 +21,4 @@ payload:
   - DOMAIN-SUFFIX,services.googleapis.cn
   - DOMAIN-SUFFIX,stun.playstation.net
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-  - IP-CIDR,103.244.88.3/8,no-resolve
+  - IP-CIDR,103.244.88.3/32,no-resolve
