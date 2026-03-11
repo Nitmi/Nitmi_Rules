@@ -1,0 +1,5 @@
+# 供 Loon 使用
+
+DEST-PORT,1-79
+DEST-PORT,81-442
+DEST-PORT,444-65535
