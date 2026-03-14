@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Proxy.list
 # REPO: https://github.com/Nitmi/Nitmi_Rules
 # SOURCE: https://github.com/Nitmi/Nitmi_Rules/blob/main/rule/Custom_Proxy.list
-# TOTAL: 1
+# TOTAL: 0
 
 payload:
-  - IP-CIDR,103.244.88.3/32,no-resolve
+
