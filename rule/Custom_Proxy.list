@@ -4,7 +4,6 @@
 
 
 DOMAIN-SUFFIX,123778.xyz
-IP-CIDR,103.244.88.3/32,no-resolve
 
 # OpenClash 首页 IP 地址探测
 DOMAIN-SUFFIX,ip.sb
