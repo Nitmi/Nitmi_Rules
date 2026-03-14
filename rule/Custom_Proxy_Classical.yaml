@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Proxy.list
 # REPO: https://github.com/Nitmi/Nitmi_Rules
 # SOURCE: https://github.com/Nitmi/Nitmi_Rules/blob/main/rule/Custom_Proxy.list
-# TOTAL: 7
+# TOTAL: 6
 
 payload:
   - DOMAIN-SUFFIX,123778.xyz
@@ -10,4 +10,4 @@ payload:
   - DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,platformio.org
   - DOMAIN-SUFFIX,stun.playstation.net
-  - IP-CIDR,103.244.88.3/32,no-resolve
+
