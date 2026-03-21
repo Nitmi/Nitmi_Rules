@@ -1,0 +1,16 @@
+# NAME: Microsoft_CDN
+# AUTHOR: Nitmi
+# REPO: https://github.com/Nitmi/Nitmi_Rules
+
+# Microsoft 上传下载 CDN 规则
+# 请确保此规则优先级高于 Microsoft 规则
+
+payload:
+  - '+.windowsupdate.com'
+  - '+.sharepoint.com'
+  - '+.sharepointonline.com'
+  - '+.1drv.com'
+  - '+.onedriveusercontent.com'
+  - '+.azureedge.net'
+  - '+.msedge.net'
+  - '+.delivery.mp.microsoft.com'
