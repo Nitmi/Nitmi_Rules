@@ -1,0 +1,15 @@
+# NAME: Microsoft_CDN
+# AUTHOR: Nitmi
+# REPO: https://github.com/Nitmi/Nitmi_Rules
+
+# Microsoft 上传下载 CDN 规则
+# 请确保此规则优先级高于 Microsoft 规则
+
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,onedriveusercontent.com
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,msedge.net
+DOMAIN-SUFFIX,delivery.mp.microsoft.com
