@@ -1,7 +1,7 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Nitmi/Nitmi_Rules
 # SOURCE: https://github.com/Nitmi/Nitmi_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 7
+# TOTAL: 8
 
 payload:
   - DOMAIN-SUFFIX,bochk.com
@@ -10,5 +10,6 @@ payload:
   - DOMAIN-SUFFIX,liveperson.net
   - DOMAIN-SUFFIX,pool.ntp.org
   - DOMAIN-SUFFIX,vv1865.com
+  - DOMAIN-SUFFIX,wd-red.com
   - DOMAIN-SUFFIX,we-stats.com
 

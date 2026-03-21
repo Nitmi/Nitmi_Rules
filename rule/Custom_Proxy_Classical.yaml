@@ -1,11 +1,12 @@
 # Generated from rule/Custom_Proxy.list
 # REPO: https://github.com/Nitmi/Nitmi_Rules
 # SOURCE: https://github.com/Nitmi/Nitmi_Rules/blob/main/rule/Custom_Proxy.list
-# TOTAL: 6
+# TOTAL: 7
 
 payload:
   - DOMAIN-SUFFIX,123778.xyz
   - DOMAIN-SUFFIX,arduino.cc
+  - DOMAIN-SUFFIX,cc.cd
   - DOMAIN-SUFFIX,hoyolab.com
   - DOMAIN-SUFFIX,ip.sb
   - DOMAIN-SUFFIX,platformio.org
