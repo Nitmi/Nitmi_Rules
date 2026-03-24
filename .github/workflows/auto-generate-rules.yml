@@ -3,7 +3,7 @@ name: Auto generate rules
 on:
   push:
     paths:
-      - 'rule/*.list'
+      - "rule/*.list"
   workflow_dispatch:
 
 permissions:
@@ -32,7 +32,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Download mihomo
         run: |
@@ -46,7 +46,7 @@ jobs:
 
       - name: Generate YAML from LIST files
         run: |
-          FILES=("Custom_Direct" "Custom_Proxy" "Steam_CDN" "Encrypted_DNS")
+          FILES=("Custom_Direct" "Custom_Proxy")
 
           for base_name in "${FILES[@]}"; do
             list_file="rule/${base_name}.list"
@@ -99,7 +99,7 @@ jobs:
       - name: Convert YAML to MRS
         run: |
           echo "Converting YAML files to MRS format..."
-          
+
           # Convert Domain YAML files
           for yaml_file in rule/*_Domain.yaml; do
             if ! grep -q '^  - ' "$yaml_file"; then
@@ -126,7 +126,7 @@ jobs:
               exit 1
             fi
           done
-          
+
           # Convert IP YAML files (exclude Classical_IP)
           for yaml_file in rule/*_IP.yaml; do
             # Skip Classical_IP files
