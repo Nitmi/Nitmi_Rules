@@ -4,7 +4,7 @@
 
 ### 1. Loon 配置
 
-- [一键导入 Nitmi Loon 配置](loon://import?sub=https%3A%2F%2Fgh.123778.xyz%2FNitmi_Rules%2Fmain%2Floon%2FLoon_Nitmi_Full.conf)
+- [一键导入 Nitmi Loon 配置](https://www.nsloon.com/openloon/import?sub=https%3A%2F%2Fgh.123778.xyz%2FNitmi_Rules%2Fmain%2Floon%2FLoon_Nitmi_Full.conf)
 - 配置文件：`loon/Loon_Nitmi_Full.conf`
 - 配置 URL：[https://gh.123778.xyz/Nitmi_Rules/main/loon/Loon_Nitmi_Full.conf](https://gh.123778.xyz/Nitmi_Rules/main/loon/Loon_Nitmi_Full.conf)
 
