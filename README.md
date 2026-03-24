@@ -14,7 +14,7 @@
 
 ### 2. 传统订阅转换配置
 
-- 仅支持 [SubConverter-Extended](https://github.com/Aethersailor/SubConverter-Extended) 增强版订阅转换后端
+- 适配 [SubConverter-Extended](https://github.com/Aethersailor/SubConverter-Extended) 订阅转换后端增强版，同时兼容常规版 [SubConverter](https://github.com/tindy2013/subconverter)
 - 配置文件：`convert/Custom_Clash_Full.ini`
 - 配置 URL：[https://gh.123778.xyz/Nitmi_Rules/main/convert/Custom_Clash_Full.ini](https://gh.123778.xyz/Nitmi_Rules/main/convert/Custom_Clash_Full.ini)
 
@@ -50,7 +50,7 @@ Loon 用户更推荐直接使用上面的 Loon 配置导入方式，而不是传
 使用步骤：
 
 1. 复制机场订阅链接。
-2. 打开 [订阅转换链接生成工具](https://sub-converter.123778.xyz)。
+2. 打开 [订阅转换增强版的前端网页](https://sub-converter.123778.xyz)。
 3. 按提示填写各项内容。
 4. 生成订阅转换链接，导入到 Clash 系以及其他客户端。
 
