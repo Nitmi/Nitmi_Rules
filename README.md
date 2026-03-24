@@ -21,7 +21,9 @@
 ## Loon 小白使用教程
 
 1. [一键导入 Nitmi Loon 配置](https://www.nsloon.com/openloon/import?sub=https%3A%2F%2Fgh.123778.xyz%2FNitmi_Rules%2Fmain%2Floon%2FLoon_Nitmi_Full.conf)
+
    注意：**一定要关闭“全覆盖更新”**。
+   
 2. 按照可莉的 Loon 设置图完成 Loon 必要设置。  
    设置参考图：[ConfigDiagram.png](https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Lcf/zh-CN/Resource/ConfigDiagram.png)
 3. 购买机场服务并导入机场节点，常见情况如下：
