@@ -6,11 +6,14 @@
 # 请确保此规则优先级高于 Microsoft 规则
 
 payload:
-  - '+.windowsupdate.com'
-  - '+.sharepoint.com'
-  - '+.sharepointonline.com'
-  - '+.1drv.com'
-  - '+.onedriveusercontent.com'
-  - '+.azureedge.net'
-  - '+.msedge.net'
-  - '+.delivery.mp.microsoft.com'
+  - "+.windowsupdate.com"
+  - "+.sharepoint.com"
+  - "+.sharepointonline.com"
+  - "+.1drv.com"
+  - "+.onedriveusercontent.com"
+  - "+.azureedge.net"
+  - "+.msedge.net"
+  - "+.msecnd.net"
+  - "+.delivery.mp.microsoft.com"
+  - "+.cdn.office.net"
+  - "+.officecdn.microsoft.com"
