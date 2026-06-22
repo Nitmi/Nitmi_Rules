@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 env:
-  CDN_BASE_URL: https://gh.123778.xyz/Nitmi_Rules/main
+  CDN_BASE_URL: ${{ vars.CDN_BASE_URL }}
 
 jobs:
   purge:
@@ -97,6 +97,12 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+
+          if [[ -z "${CDN_BASE_URL:-}" ]]; then
+            echo "Repository variable CDN_BASE_URL is not set."
+            echo "Set it to the public CDN prefix for this repository, for example: https://cdn.example.com/owner/repo/main"
+            exit 1
+          fi
 
           python - <<'PY'
           import json
