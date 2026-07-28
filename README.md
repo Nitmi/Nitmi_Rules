@@ -20,23 +20,7 @@
 
 ## Loon 小白使用教程
 
-1. [一键导入 Nitmi Loon 配置](https://www.nsloon.com/openloon/import?sub=https%3A%2F%2Fgh.123778.xyz%2FNitmi_Rules%2Fmain%2Floon%2FLoon_Nitmi_Full.conf)
-
-   注意：**一定要关闭“全覆盖更新”**。
-   
-2. 按照可莉的 Loon 设置图完成 Loon 必要设置。  
-   设置参考图：[ConfigDiagram.png](https://raw.githubusercontent.com/luestr/ProxyResource/main/Tool/Loon/Lcf/zh-CN/Resource/ConfigDiagram.png)
-3. 购买机场服务并导入机场节点，常见情况如下：
-   - 机场有一键导入 Loon 的，直接点击即可。
-   - 机场有“复制订阅地址”的，使用 Loon 的“节点 -> 添加订阅 -> URL”，粘贴订阅地址导入。
-   - 机场支持 Shadowrocket 的，Shadowrocket 用的链接一般也可以在 Loon 中使用。
-   - 以上都不行的，使用 sub-store 转换。
-   - 如果还不行，那通常就是你的机场节点协议 Loon 不支持。
-4. 按需安装插件。  
-   插件不宜过多，安装常用的就好。  
-   插件市场推荐：[https://hub.kelee.one](https://hub.kelee.one)
-5. 完成以上步骤后，再根据自己的使用习惯微调分组、插件和策略。  
-   小白不建议一开始就装太多插件或频繁改配置。
+请访问：[Loon 小白使用教程](https://loon.douok.de)
 
 ## 可选：iOS 海外平台消息推送
 
