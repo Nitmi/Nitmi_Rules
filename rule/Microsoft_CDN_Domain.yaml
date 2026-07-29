@@ -1,16 +1,11 @@
-# NAME: Microsoft_CDN
-# AUTHOR: Nitmi
+# Generated from rule/Microsoft_CDN.list
 # REPO: https://github.com/Nitmi/Nitmi_Rules
-
-# Microsoft 软件更新与静态内容 CDN 规则
-# 仅收录 Microsoft Connected Cache 官方列出的可缓存内容端点
-# OneDrive/SharePoint 业务数据交由 Microsoft 策略处理
-# SOURCE: https://learn.microsoft.com/windows/deployment/do/delivery-optimization-endpoints
-# 请确保此规则优先级高于 Microsoft 规则
+# SOURCE: https://github.com/Nitmi/Nitmi_Rules/blob/main/rule/Microsoft_CDN.list
+# TOTAL: 5
 
 payload:
-  - "+.windowsupdate.com"
-  - "+.dl.delivery.mp.microsoft.com"
-  - "+.cdn.office.net"
-  - "+.officecdn.microsoft.com"
-  - "+.static.microsoft"
+  - '+.cdn.office.net'
+  - '+.dl.delivery.mp.microsoft.com'
+  - '+.officecdn.microsoft.com'
+  - '+.static.microsoft'
+  - '+.windowsupdate.com'
