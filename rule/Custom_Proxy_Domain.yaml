@@ -1,13 +1,8 @@
 # Generated from rule/Custom_Proxy.list
 # REPO: https://github.com/Nitmi/Nitmi_Rules
 # SOURCE: https://github.com/Nitmi/Nitmi_Rules/blob/main/rule/Custom_Proxy.list
-# TOTAL: 7
+# TOTAL: 2
 
 payload:
-  - '+.123778.xyz'
-  - '+.arduino.cc'
-  - '+.cc.cd'
   - '+.hoyolab.com'
-  - '+.ip.sb'
-  - '+.platformio.org'
   - '+.stun.playstation.net'

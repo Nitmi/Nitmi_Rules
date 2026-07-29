@@ -1,10 +1,9 @@
 # Generated from rule/Custom_Direct.list
 # REPO: https://github.com/Nitmi/Nitmi_Rules
 # SOURCE: https://github.com/Nitmi/Nitmi_Rules/blob/main/rule/Custom_Direct.list
-# TOTAL: 8
+# TOTAL: 7
 
 payload:
-  - '+.bochk.com'
   - '+.gsctek.com'
   - '+.hsbc.com.hk'
   - '+.liveperson.net'

@@ -3,7 +3,9 @@ name: Auto generate rules
 on:
   push:
     paths:
-      - "rule/*.list"
+      - "rule/Custom_Direct.list"
+      - "rule/Custom_Proxy.list"
+      - "rule/Microsoft_CDN.list"
   workflow_dispatch:
 
 permissions:
@@ -46,7 +48,7 @@ jobs:
 
       - name: Generate YAML from LIST files
         run: |
-          FILES=("Custom_Direct" "Custom_Proxy")
+          FILES=("Custom_Direct" "Custom_Proxy" "Microsoft_CDN")
 
           for base_name in "${FILES[@]}"; do
             list_file="rule/${base_name}.list"
@@ -90,6 +92,12 @@ jobs:
             }
 
             generate_and_commit "$domain_yaml_file" "$domain_rules"
+
+            # Microsoft_CDN is a domain-only ruleset.
+            if [[ "$base_name" == "Microsoft_CDN" ]]; then
+              continue
+            fi
+
             generate_and_commit "$ip_yaml_file" "$ip_rules"
             generate_and_commit "$classical_yaml_file" "$classical_rules"
             generate_and_commit "$classical_ip_yaml_file" "$classical_ip_rules"

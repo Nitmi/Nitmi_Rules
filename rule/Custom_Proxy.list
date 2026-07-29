@@ -2,18 +2,10 @@
 # AUTHOR: Nitmi
 # REPO: https://github.com/Nitmi/Nitmi_Rules
 # 强制代理列表，来自个人收集
+# 收录 Geosite 尚未覆盖的域名，以及需要优先强制使用主力节点的域名。
 
-
-DOMAIN-SUFFIX,123778.xyz
-
-# OpenClash 首页 IP 地址探测
-DOMAIN-SUFFIX,ip.sb
 # PS5 STUN
 DOMAIN-SUFFIX,stun.playstation.net
-# 嵌入式相关
-DOMAIN-SUFFIX,platformio.org
-DOMAIN-SUFFIX,arduino.cc
+
 # HoYoLAB
 DOMAIN-SUFFIX,hoyolab.com
-
-DOMAIN-SUFFIX,cc.cd
