@@ -20,7 +20,7 @@
 
 ## Loon 小白使用教程
 
-请访问：[Loon 小白使用教程](https://loon.douok.de)
+请访问：[https://loon.douok.de/](https://loon.douok.de/)
 
 ## 可选：iOS 海外平台消息推送
 
