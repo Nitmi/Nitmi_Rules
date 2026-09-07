@@ -6,6 +6,7 @@ on:
       - "rule/Custom_Direct.list"
       - "rule/Custom_Proxy.list"
       - "rule/Microsoft_CDN.list"
+      - "rule/Germany_Ecommerce.list"
   workflow_dispatch:
 
 permissions:
@@ -48,7 +49,7 @@ jobs:
 
       - name: Generate YAML from LIST files
         run: |
-          FILES=("Custom_Direct" "Custom_Proxy" "Microsoft_CDN")
+          FILES=("Custom_Direct" "Custom_Proxy" "Microsoft_CDN" "Germany_Ecommerce")
 
           for base_name in "${FILES[@]}"; do
             list_file="rule/${base_name}.list"
@@ -93,10 +94,10 @@ jobs:
 
             generate_and_commit "$domain_yaml_file" "$domain_rules"
 
-            # Microsoft_CDN is a domain-only ruleset.
-            if [[ "$base_name" == "Microsoft_CDN" ]]; then
-              continue
-            fi
+            # These rulesets intentionally contain domains only.
+            case "$base_name" in
+              Microsoft_CDN|Germany_Ecommerce) continue ;;
+            esac
 
             generate_and_commit "$ip_yaml_file" "$ip_rules"
             generate_and_commit "$classical_yaml_file" "$classical_rules"

@@ -1,0 +1,151 @@
+# NAME: Germany_Ecommerce
+# AUTHOR: Nitmi
+# REPO: https://github.com/Nitmi/Nitmi_Rules
+
+# 德国常用境外购物平台补充规则
+# 仅收录平台自有域名，不收录支付、物流、银行、旅游及通用第三方 CDN
+# 请确保此规则优先级高于 CATEGORY-ECOMMERCE
+
+# 综合电商与二手交易
+DOMAIN-SUFFIX,amazon.de
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonimages.com
+DOMAIN-SUFFIX,images-amazon.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,ssl-images-amazon.com
+DOMAIN-SUFFIX,amzn.to
+DOMAIN-SUFFIX,ebay.de
+DOMAIN-SUFFIX,ebay.com
+DOMAIN-SUFFIX,ebayimg.com
+DOMAIN-SUFFIX,ebaystatic.com
+DOMAIN-SUFFIX,otto.de
+DOMAIN-SUFFIX,kaufland.de
+DOMAIN-SUFFIX,kaufland.com
+DOMAIN-SUFFIX,joybuy.de
+DOMAIN-SUFFIX,joybuy.com
+DOMAIN,sgm-static.jd.com
+DOMAIN-SUFFIX,aliexpress.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,temu.com
+DOMAIN-SUFFIX,kwcdn.com
+DOMAIN-SUFFIX,kleinanzeigen.de
+DOMAIN-SUFFIX,etsy.com
+DOMAIN-SUFFIX,vinted.de
+DOMAIN-SUFFIX,vinted.com
+
+# 电子产品与家电
+DOMAIN-SUFFIX,mediamarkt.de
+DOMAIN-SUFFIX,mediamarkt.com
+DOMAIN-SUFFIX,saturn.de
+DOMAIN-SUFFIX,media-saturn.com
+DOMAIN-SUFFIX,mediamarktsaturn.com
+DOMAIN-SUFFIX,alternate.de
+DOMAIN-SUFFIX,tlecdn.net
+DOMAIN-SUFFIX,cyberport.de
+DOMAIN-SUFFIX,notebooksbilliger.de
+DOMAIN-SUFFIX,mindfactory.de
+DOMAIN-SUFFIX,caseking.de
+DOMAIN-SUFFIX,computeruniverse.net
+DOMAIN-SUFFIX,conrad.de
+DOMAIN-SUFFIX,coolblue.de
+DOMAIN-SUFFIX,expert.de
+DOMAIN-SUFFIX,euronics.de
+
+# 服饰、鞋履与运动
+DOMAIN-SUFFIX,zalando.de
+DOMAIN-SUFFIX,zalando.com
+DOMAIN-SUFFIX,zalando-lounge.de
+DOMAIN-SUFFIX,aboutyou.de
+DOMAIN-SUFFIX,aboutyou.com
+DOMAIN-SUFFIX,aboutstatic.com
+DOMAIN-SUFFIX,bonprix.de
+DOMAIN-SUFFIX,bonprix.com
+DOMAIN-SUFFIX,hm.com
+DOMAIN-SUFFIX,uniqlo.com
+DOMAIN-SUFFIX,adidas.de
+DOMAIN-SUFFIX,adidas.com
+DOMAIN-SUFFIX,adidascdn.com
+DOMAIN-SUFFIX,nike.com
+DOMAIN-SUFFIX,nikecdn.com
+DOMAIN-SUFFIX,static-nike.com
+DOMAIN-SUFFIX,breuninger.com
+DOMAIN-SUFFIX,peek-cloppenburg.de
+DOMAIN-SUFFIX,asos.com
+DOMAIN-SUFFIX,decathlon.de
+DOMAIN-SUFFIX,deichmann.com
+DOMAIN-SUFFIX,snipes.com
+
+# 日化、美妆与百货
+DOMAIN-SUFFIX,dm.de
+DOMAIN-SUFFIX,dm-static.com
+DOMAIN-SUFFIX,rossmann.de
+DOMAIN-SUFFIX,mueller.de
+DOMAIN-SUFFIX,douglas.de
+DOMAIN-SUFFIX,flaconi.de
+DOMAIN-SUFFIX,notino.de
+DOMAIN-SUFFIX,sephora.de
+DOMAIN-SUFFIX,galeria.de
+DOMAIN-SUFFIX,tchibo.de
+DOMAIN-SUFFIX,qvc.de
+
+# 商超、生鲜、餐饮外送与餐盒
+DOMAIN-SUFFIX,rewe.de
+DOMAIN-SUFFIX,edeka.de
+DOMAIN-SUFFIX,aldi-nord.de
+DOMAIN-SUFFIX,aldi-sued.de
+DOMAIN-SUFFIX,lidl.de
+DOMAIN-SUFFIX,lidl.com
+DOMAIN-SUFFIX,picnic.app
+DOMAIN-SUFFIX,flaschenpost.de
+DOMAIN-SUFFIX,knuspr.de
+DOMAIN-SUFFIX,hellofresh.de
+DOMAIN-SUFFIX,lieferando.de
+DOMAIN-SUFFIX,takeaway.com
+DOMAIN-SUFFIX,ubereats.com
+DOMAIN,eats.uber.com
+DOMAIN-SUFFIX,wolt.com
+
+# 家居、家具与建材
+DOMAIN-SUFFIX,ikea.de
+DOMAIN-SUFFIX,ikea.com
+DOMAIN-SUFFIX,home24.de
+DOMAIN-SUFFIX,obi.de
+DOMAIN-SUFFIX,bauhaus.info
+DOMAIN-SUFFIX,hornbach.de
+DOMAIN-SUFFIX,hornbach.com
+DOMAIN-SUFFIX,moebel.de
+DOMAIN-SUFFIX,xxxlutz.de
+DOMAIN-SUFFIX,hoeffner.de
+DOMAIN-SUFFIX,roller.de
+DOMAIN-SUFFIX,poco.de
+DOMAIN-SUFFIX,westwing.de
+DOMAIN-SUFFIX,jysk.de
+
+# 比价与优惠社区
+DOMAIN-SUFFIX,idealo.de
+DOMAIN-SUFFIX,idealo.com
+DOMAIN-SUFFIX,geizhals.de
+DOMAIN-SUFFIX,geizhals.eu
+DOMAIN-SUFFIX,billiger.de
+DOMAIN-SUFFIX,billiger.com
+DOMAIN-SUFFIX,mydealz.de
+DOMAIN-SUFFIX,pepper.com
+DOMAIN-SUFFIX,guenstiger.de
+DOMAIN-SUFFIX,preisvergleich.de
+
+# 网上药房
+DOMAIN-SUFFIX,shop-apotheke.com
+DOMAIN-SUFFIX,shop-apotheke.de
+DOMAIN-SUFFIX,redcare-pharmacy.com
+DOMAIN-SUFFIX,docmorris.de
+DOMAIN-SUFFIX,docmorris.com
+DOMAIN-SUFFIX,medpex.de
+DOMAIN-SUFFIX,aponeo.de
+DOMAIN-SUFFIX,sanicare.de
+
+# 图书、宠物与其他常用零售
+DOMAIN-SUFFIX,thalia.de
+DOMAIN-SUFFIX,medimops.de
+DOMAIN-SUFFIX,zooplus.de
+DOMAIN-SUFFIX,fressnapf.de
+DOMAIN-SUFFIX,christ.de
