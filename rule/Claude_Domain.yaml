@@ -1,0 +1,33 @@
+# Generated from rule/Claude.list
+# REPO: https://github.com/Nitmi/Nitmi_Rules
+# SOURCE: https://github.com/Nitmi/Nitmi_Rules/blob/main/rule/Claude.list
+# TOTAL: 27
+
+payload:
+  - '+.anthropic-cdn.com'
+  - '+.anthropic.cloud'
+  - '+.anthropic.com'
+  - '+.anthropiccdn.com'
+  - '+.anthropicsystem.com'
+  - '+.clau.de'
+  - '+.claude.ai'
+  - '+.claude.com'
+  - '+.claude.site'
+  - '+.claudemcpclient.com'
+  - '+.claudeusercontent.com'
+  - '+.intercom.io'
+  - '+.intercomcdn.com'
+  - '+.sentry.io'
+  - '+.statsigapi.net'
+  - '*claude*'
+  - '*datadog*'
+  - '*sift*'
+  - 'anthropic-com.ghost.io'
+  - 'anthropic.auth0.com'
+  - 'anthropic.com.cdn.cloudflare.net'
+  - 'browser-intake-us5-datadoghq.com'
+  - 'cdn.usefathom.com'
+  - 'feedback.anthropic.com'
+  - 'platform.claude.com'
+  - 'preview.claude.ai'
+  - 'servd-anthropic-website.b-cdn.net'

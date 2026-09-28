@@ -7,6 +7,7 @@ on:
       - "rule/Custom_Proxy.list"
       - "rule/Microsoft_CDN.list"
       - "rule/Germany_Ecommerce.list"
+      - "rule/Claude.list"
   workflow_dispatch:
 
 permissions:
@@ -49,7 +50,7 @@ jobs:
 
       - name: Generate YAML from LIST files
         run: |
-          FILES=("Custom_Direct" "Custom_Proxy" "Microsoft_CDN" "Germany_Ecommerce")
+          FILES=("Custom_Direct" "Custom_Proxy" "Microsoft_CDN" "Germany_Ecommerce" "Claude")
 
           for base_name in "${FILES[@]}"; do
             list_file="rule/${base_name}.list"
@@ -66,10 +67,15 @@ jobs:
             classical_rules+=$'\n'
             classical_rules+=$(grep -E '^(IP-|IP-CIDR)' "$list_file" | sed -E "s/^IP-CIDR,([^,]+).*/  - IP-CIDR,\1,no-resolve/" | sed -E "s/^IP,([^,]+).*/  - IP-CIDR,\1,no-resolve/" | sort)
 
-            classical_ip_rules=$({
-              grep -E '^(IP-|IP-CIDR)' "$list_file" | sed -E "s/^IP-CIDR,([^,]+).*/  - IP-CIDR,\1,no-resolve/" | sed -E "s/^IP,([^,]+).*/  - IP-CIDR,\1,no-resolve/"
-              grep -E '^SRC-PORT' "$list_file" | sed -E "s/^(.*)/  - \1/"
-            } | sort)
+            if [[ "$base_name" == "Claude" ]]; then
+              # Claude intentionally resolves domains before IP/ASN matching.
+              classical_ip_rules=$(grep -E '^(IP-CIDR|IP-CIDR6|IP-ASN),' "$list_file" | sed -E "s/^(.*)/  - \1/" | sort)
+            else
+              classical_ip_rules=$({
+                grep -E '^(IP-|IP-CIDR)' "$list_file" | sed -E "s/^IP-CIDR,([^,]+).*/  - IP-CIDR,\1,no-resolve/" | sed -E "s/^IP,([^,]+).*/  - IP-CIDR,\1,no-resolve/"
+                grep -E '^SRC-PORT' "$list_file" | sed -E "s/^(.*)/  - \1/"
+              } | sort)
+            fi
 
             generate_and_commit() {
               file="$1"
@@ -97,6 +103,10 @@ jobs:
             # These rulesets intentionally contain domains only.
             case "$base_name" in
               Microsoft_CDN|Germany_Ecommerce) continue ;;
+              Claude)
+                generate_and_commit "$classical_ip_yaml_file" "$classical_ip_rules"
+                continue
+                ;;
             esac
 
             generate_and_commit "$ip_yaml_file" "$ip_rules"

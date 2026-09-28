@@ -1,0 +1,37 @@
+# NAME: Claude
+# AUTHOR: Nitmi
+# REPO: https://github.com/Nitmi/Nitmi_Rules
+# Claude、Claude Code 与 Anthropic API 规则
+
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,datadog
+DOMAIN-KEYWORD,sift
+DOMAIN,anthropic-com.ghost.io
+DOMAIN,anthropic.auth0.com
+DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN,cdn.usefathom.com
+DOMAIN,feedback.anthropic.com
+DOMAIN,platform.claude.com
+DOMAIN,preview.claude.ai
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN-SUFFIX,anthropic-cdn.com
+DOMAIN-SUFFIX,anthropic.cloud
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,anthropiccdn.com
+DOMAIN-SUFFIX,anthropicsystem.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claude.site
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,statsigapi.net
+
+# 不使用 no-resolve，确保域名请求也会继续参与 IP/ASN 匹配
+IP-CIDR,160.79.104.0/21
+IP-CIDR6,2607:6bc0::/32
+IP-ASN,399358
