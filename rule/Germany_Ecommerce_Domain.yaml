@@ -1,7 +1,7 @@
 # Generated from rule/Germany_Ecommerce.list
 # REPO: https://github.com/Nitmi/Nitmi_Rules
 # SOURCE: https://github.com/Nitmi/Nitmi_Rules/blob/main/rule/Germany_Ecommerce.list
-# TOTAL: 126
+# TOTAL: 125
 
 payload:
   - '+.aboutstatic.com'
@@ -12,7 +12,6 @@ payload:
   - '+.adidascdn.com'
   - '+.aldi-nord.de'
   - '+.aldi-sued.de'
-  - '+.alicdn.com'
   - '+.aliexpress.com'
   - '+.alternate.de'
   - '+.amazon.com'
