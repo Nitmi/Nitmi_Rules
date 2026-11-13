@@ -20,5 +20,11 @@
   `convert-ruleset domain yaml <source.yaml> <target.mrs>`; decode with
   `convert-ruleset domain mrs <source.mrs> <target.txt>` to verify the payload.
 - Check the published LIST, YAML and MRS hashes on both GitHub Raw and the
-  configured subscription CDN before attempting a manual cache purge. The
-  AliCDN fix was verified on both endpoints without a successful purge job.
+  configured subscription CDN. A fresh response from one request or edge does
+  not prove that all CDN caches have refreshed. The AliCDN YAML later returned
+  an old `HIT` with `TOTAL: 126` from NRT despite earlier matching hashes.
+- When the purge workflow cannot run, purge the changed URLs through the local
+  authenticated `cf cache purge` command. The AliCDN LIST, YAML and MRS URLs
+  were manually purged, then verified against local hashes using their original
+  URLs. Do not use cache-busting query strings as proof that clients receive
+  updated files.
